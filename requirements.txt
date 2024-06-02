@@ -1,0 +1,10 @@
+easydict==1.13
+opencv-python==4.9.0.80
+moviepy==1.0.3
+flow-vis==0.1
+matplotlib==3.8.3
+einops==0.7.0
+timm==0.6.7
+scikit-image==0.22.0
+scikit-learn==1.4.1.post1
+cupy==12.2.0
