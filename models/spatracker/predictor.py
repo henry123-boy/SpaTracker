@@ -102,6 +102,8 @@ class SpaTrackerPredictor(torch.nn.Module):
                 queries=grid_pts,
                 backward_tracking=backward_tracking,
                 wind_length=wind_length,
+                video_depth=video_depth,
+                depth_predictor=depth_predictor,
             )
             tracks = smart_cat(tracks, tracks_step, dim=2)
             visibilities = smart_cat(visibilities, visibilities_step, dim=2)
