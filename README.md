@@ -69,4 +69,17 @@ We provide the visualization code for blender:
 For example, the `sintel_bandage` looked like 
 ![](assets/sintel.gif)
 
+## Citation
+If you find our work useful in your research, please consider citing:
 
+```bibtex
+@inproceedings{SpatialTracker,
+    title={SpatialTracker: Tracking Any 2D Pixels in 3D Space},
+    author={Xiao, Yuxi and Wang, Qianqian and Zhang, Shangzhan and Xue, Nan and Peng, Sida and Shen, Yujun and Zhou, Xiaowei},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2024}
+}
+```
+
+## Acknowledgement
+Spatialtracker is built on top of [Cotracker](co-tracker.github.io) codebase. We appreciate the authors for their greate work and follow the License of Cotracker.
