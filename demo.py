@@ -217,7 +217,7 @@ xyztVis[..., 2] = 1.0
 
 xyztVis = np.linalg.inv(intr[None, ...]) @ xyztVis.reshape(-1, 3, 1) # (TN) 3 1
 xyztVis = xyztVis.reshape(T, -1, 3) # T N 3
-xyztVis[..., 2] *= xyzt[..., 2]
+xyztVis *= xyzt[..., [2]]
 
 pred_tracks2d = pred_tracks[0][:, :, :2]
 S1, N1, _ = pred_tracks2d.shape
