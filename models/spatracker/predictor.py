@@ -258,7 +258,7 @@ class SpaTrackerPredictor(torch.nn.Module):
         inv_queries[:, :, 0] = inv_video.shape[1] - inv_queries[:, :, 0] - 1
 
         inv_tracks, __, inv_visibilities = self.model(
-            rgbds=inv_video, queries=queries, iters=6
+            rgbds=inv_video, queries=inv_queries, iters=6
         )
 
         inv_tracks = inv_tracks.flip(1)
