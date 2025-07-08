@@ -10,9 +10,11 @@
 > CVPR 2024, Highlight
 > *Paper at [arxiv](https://arxiv.org/abs/2404.04319)*  
 
+## SpatialTrackerV2 is out!!!🎉🎉🎉
+SpatialTrackerv2 is a unified model can simultaneously produce consistent depth, camera poses and pixel-wise 3D tracking at once, which achieves 100% improvements than V1. The webpage is here [SpatialTrackerV2](https://spatialtracker.github.io/) 
 
 ## News and ToDo
-- [ ] Release SpatialTracker-v2 (coming).
+- [x] `07.08.2025`: SpatialTracker-v2 is out!!! Try it out: 🤗 [Huggingface Space](https://huggingface.co/spaces/Yuxihenry/SpatialTrackerV2).
 - [x] Release SpatialTracker inference code and checkpoints.
 - [x] `05.04.2024`: SpatialTracker is selected as Highlight Paper!
 - [x] `26.02.2024`: SpatialTracker is accepted at CVPR 2024!
